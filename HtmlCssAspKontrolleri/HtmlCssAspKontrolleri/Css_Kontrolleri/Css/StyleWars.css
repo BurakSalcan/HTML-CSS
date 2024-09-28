@@ -1,0 +1,54 @@
+﻿/*Style içerisine aşağıdaki gibi değişiklikler yaparak, atadığımız kısımlarla alakalı olan her şey body kısmında etkilenir.*/
+body {
+    font-family: Calibri;
+    /*Body içerisindeki etiketi ne olursa olsun her elemanın font family özelliğini değiştirir.*/
+}
+
+h3, h2 {
+    color: red;
+    /*Tüm h3 ve h2 başlıklarını kırmızı yapar.*/
+}
+
+p {
+    color: dimgray;
+}
+
+a {
+    color: green;
+}
+
+/*Özel bir etiket atamak için bu şekilde .(nokta) koyup ardından isim konur. İçine ne koyarsak, head bloğunda bu etiketi koyduğumuz zaman 
+            ilgili bloktaki yazı, bu sınıftaki her noktada etkilenir.
+        */
+.murtaza {
+    color: deepskyblue;
+    font-size: 31pt;
+    font-family: 'Comic Sans MS';
+    font-weight: 900;
+}
+
+#lblkullanici {
+    color: black;
+}
+
+.farklifont {
+    font-family: "Dancing Script";
+    font-size:25pt;
+    font-weight:700;
+}
+
+.buton{
+    background-color:orangered;
+    color:white;
+    font-weight:900;
+    text-decoration:none;
+}
+
+/*Üzerine mouse'u getirdiğimiz zaman "hover" ile değiştiriyorsun.*/
+.buton:hover{
+    color:orange;
+}
+
+.buton:visited{
+    background-color:purple;
+}

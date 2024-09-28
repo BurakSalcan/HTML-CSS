@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css_Kontrolleri\Cerceveler.html" />
+    <Content Include="Css_Kontrolleri\CssNedirNasilKullanilir.html" />
+    <Content Include="Css_Kontrolleri\Css\StyleWars.css" />
+    <Content Include="Css_Kontrolleri\MetinBicimlendirme.html" />
+    <Content Include="Css_Kontrolleri\SeciciTurleri.html" />
     <Content Include="HTML Kontrolleri\Basliklar.html" />
     <Content Include="HTML Kontrolleri\HtmlTemelKurallar.html" />
     <Content Include="HTML Kontrolleri\LinkOlusturma.html" />
