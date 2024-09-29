@@ -67,9 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asp_Kontrolleri\textBoxKontrolu.aspx" />
+    <Content Include="Css_Kontrolleri\BoxedLayout.html" />
     <Content Include="Css_Kontrolleri\Cerceveler.html" />
     <Content Include="Css_Kontrolleri\CssNedirNasilKullanilir.html" />
     <Content Include="Css_Kontrolleri\Css\StyleWars.css" />
+    <Content Include="Css_Kontrolleri\DivNedir.html" />
+    <Content Include="Css_Kontrolleri\FloatKullanimi.html" />
+    <Content Include="Css_Kontrolleri\MarginVePadding.html" />
     <Content Include="Css_Kontrolleri\MetinBicimlendirme.html" />
     <Content Include="Css_Kontrolleri\SeciciTurleri.html" />
     <Content Include="HTML Kontrolleri\Basliklar.html" />
@@ -81,9 +86,18 @@
     <Content Include="HTML Kontrolleri\Tablolar.html" />
     <Content Include="Resimler\d58104416f6df9a873a35658cac99404.gif" />
     <Content Include="Resimler\Ekran görüntüsü 2024-09-21 145823.png" />
+    <Content Include="Resimler\AnimeYemek.jpg" />
+    <Content Include="Resimler\Süpürge.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asp_Kontrolleri\textBoxKontrolu.aspx.cs">
+      <DependentUpon>textBoxKontrolu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asp_Kontrolleri\textBoxKontrolu.aspx.designer.cs">
+      <DependentUpon>textBoxKontrolu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

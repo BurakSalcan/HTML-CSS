@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        *,h1,h2,h3,h4,h5,h6{/*Yıldız koyduktan sonra boşlukları siler.*/
+            margin:0;padding:0;
+        }
+        .temp {
+            min-height: 50px;
+            border: 1px solid silver;
+        }
+        .tasiyici{
+            width:1200px;
+            /*Aşağıdaki özellikler ile ortalama işleminin çalışması için, ait olduğu div'in genişlik bilgisi(width) olmalıdır.*/
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .gutu{
+            width:158px;
+            padding:10px;
+            margin:10px;
+            border-radius:10px;
+            float:left;
+        }
+            .gutu .resim {
+                padding: 2px;
+                border: 1px solid silver;
+            }
+                .gutu .resim img {
+                    width: 100%;
+                }
+                .gutu .icerik{
+                    margin:10px 0;
+                }
+            .gutu .sepet {
+                margin: 10px 0;
+            }
+                .gutu .sepet a{
+                    display:block;
+                    padding:5px 0;
+                    background-color:orangered;
+                    color:white;
+                    text-align:center;
+                    text-decoration:none;
+                    border-radius:10px;
+
+                }
+                .fiyat{
+                    padding:10px 0;
+                }
+        .gutu:hover {
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+    </style>
+</head>
+<body>
+    <!--"Class1 'boşluk' class2 şeklinde, 2 class'ı tek bir yere aralarına boşluk koyarak yazabiliriz. Bunun sınırı yoktur."-->
+
+    <div class="tasiyici">
+        <div class="gutu temp">
+            <div class="resim">
+                <img src="../Resimler/Süpürge.png" />
+                
+            </div>
+            <div class="icerik">
+                <b>Karcher <br /> Temizlik Robotu<br /><br />
+                Buharlı Temizlik Makinesi
+            </div>
+            <div class="fiyat">
+                <label style="float:left; text-decoration:line-through; color:silver">1245,99TL</label>
+                <label style="float:right; color:orangered; font-weight:900">1244,99TL</label>
+                <div style="clear:both"></div>
+            </div>
+            <div class="sepet">
+                <a href="">Sepete ekle</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
